@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Guruprasad Mastappa Naik | Resume</title>
+    <style>
+      :root {
+        --bg: #0a0a0a;
+        --panel: #121212;
+        --card: #171717;
+        --text: #f5f3ef;
+        --muted: #b8b0a8;
+        --accent: #ff7a3d;
+        --border: rgba(255,255,255,0.12);
+      }
+
+      * { box-sizing: border-box; }
+      html { scroll-behavior: smooth; }
+      body {
+        margin: 0;
+        font-family: Arial, Helvetica, sans-serif;
+        background: var(--bg);
+        color: var(--text);
+        line-height: 1.6;
+      }
+      .wrap {
+        max-width: 980px;
+        margin: 0 auto;
+        padding: 48px 24px 72px;
+      }
+      .header {
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start;
+        gap: 20px;
+        border-bottom: 1px solid var(--border);
+        padding-bottom: 22px;
+        margin-bottom: 24px;
+      }
+      h1 {
+        margin: 0 0 8px;
+        font-size: clamp(2rem, 5vw, 3.1rem);
+        line-height: 1.05;
+      }
+      .role {
+        color: var(--accent);
+        text-transform: uppercase;
+        letter-spacing: 0.12em;
+        font-size: 0.72rem;
+        font-weight: 700;
+      }
+      .meta {
+        display: flex;
+        flex-direction: column;
+        gap: 6px;
+        text-align: right;
+        color: var(--muted);
+        font-size: 0.9rem;
+      }
+      .meta a {
+        color: var(--text);
+        text-decoration: none;
+      }
+      .grid {
+        display: grid;
+        grid-template-columns: 1.2fr 0.8fr;
+        gap: 24px;
+      }
+      .section {
+        margin-bottom: 24px;
+      }
+      .section h2 {
+        margin: 0 0 12px;
+        font-size: 0.75rem;
+        letter-spacing: 0.18em;
+        text-transform: uppercase;
+        color: var(--accent);
+      }
+      .card {
+        background: var(--card);
+        border: 1px solid var(--border);
+        border-radius: 18px;
+        padding: 18px 18px 14px;
+      }
+      p {
+        margin: 0 0 12px;
+        color: var(--muted);
+      }
+      ul {
+        margin: 0;
+        padding-left: 18px;
+        color: var(--muted);
+      }
+      li { margin-bottom: 8px; }
+      .job {
+        margin-bottom: 18px;
+      }
+      .job:last-child { margin-bottom: 0; }
+      .job-top {
+        display: flex;
+        justify-content: space-between;
+        gap: 16px;
+        margin-bottom: 6px;
+        color: var(--text);
+        font-weight: 700;
+      }
+      .small { color: var(--muted); font-size: 0.82rem; }
+      .tag-list {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 8px;
+        margin-top: 12px;
+      }
+      .tag {
+        display: inline-flex;
+        align-items: center;
+        padding: 7px 10px;
+        border-radius: 999px;
+        border: 1px solid var(--border);
+        color: var(--text);
+        background: rgba(255,255,255,0.02);
+        font-size: 0.72rem;
+      }
+      .btn-row {
+        display: flex;
+        gap: 12px;
+        margin-top: 24px;
+        flex-wrap: wrap;
+      }
+      .btn {
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        min-height: 42px;
+        padding: 0.8rem 1.1rem;
+        border-radius: 999px;
+        border: 1px solid var(--border);
+        color: var(--text);
+        text-decoration: none;
+        font-size: 0.72rem;
+        letter-spacing: 0.14em;
+        text-transform: uppercase;
+        cursor: pointer;
+        background: transparent;
+      }
+      .btn.primary {
+        background: var(--accent);
+        color: #111;
+        border-color: var(--accent);
+      }
+      @media (max-width: 720px) {
+        .header, .grid { grid-template-columns: 1fr; display: grid; }
+        .meta { text-align: left; }
+      }
+      @media print {
+        body {
+          background: #fff;
+          color: #111;
+        }
+        .btn-row {
+          display: none;
+        }
+        .card {
+          background: #fff;
+          border-color: rgba(0,0,0,0.12);
+        }
+        .meta, p, ul, li, .small, .tag, .role {
+          color: #111;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="wrap">
+      <div class="header">
+        <div>
+          <div class="role">Full-Stack Developer × AI</div>
+          <h1>Guruprasad Mastappa Naik</h1>
+        </div>
+        <div class="meta">
+          <span>Bhatkal, Karnataka, India</span>
+          <a href="https://wa.me/917338014869" target="_blank" rel="noreferrer">+91 73380 14869</a>
+          <a href="mailto:guru60539@gmail.com">guru60539@gmail.com</a>
+          <a href="https://github.com/guru60539-sys" target="_blank" rel="noreferrer">github.com/guru60539-sys</a>
+          <a href="https://www.linkedin.com/in/guruprasad-mastappa-naik-7056b5298" target="_blank" rel="noreferrer">linkedin.com/in/guruprasad</a>
+        </div>
+      </div>
+
+      <div class="grid">
+        <div>
+          <div class="section">
+            <h2>Profile</h2>
+            <div class="card">
+              <p>Full-stack developer focused on building practical digital products, AI-powered experiences, and robust web applications from concept to deployment. I enjoy solving real-world problems through clean product thinking, efficient systems, and a strong user-first mindset.</p>
+            </div>
+          </div>
+
+          <div class="section">
+            <h2>Experience</h2>
+            <div class="card">
+              <div class="job">
+                <div class="job-top"><span>Product & Web Development</span><span class="small">2023 — Present</span></div>
+                <p>Designed and developed end-to-end web solutions and AI-powered tools for practical business use cases.</p>
+                <ul>
+                  <li>Built full-stack applications with responsive UI, secure auth, database flows, and API integrations.</li>
+                  <li>Created AI-driven experiences for resume evaluation, interviews, transcription, and workflow automation.</li>
+                  <li>Focused on product quality, performance, maintainability, and user experience.</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
+          <div class="section">
+            <h2>Projects</h2>
+            <div class="card">
+              <div class="job">
+                <div class="job-top"><span>AI Career Platform</span><span class="small">Job Portal</span></div>
+                <p>Built a recruitment platform featuring AI mock interviews, ATS resume analysis, recruiter dashboards, application tracking, and user authentication.</p>
+              </div>
+              <div class="job">
+                <div class="job-top"><span>VocalHealth AI</span><span class="small">Medical Voice Assistant</span></div>
+                <p>Developed a voice-enabled healthcare workflow combining real-time transcription, AI summaries, and structured triage support.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div>
+          <div class="section">
+            <h2>Skills</h2>
+            <div class="card">
+              <div class="tag-list">
+                <span class="tag">HTML</span>
+                <span class="tag">CSS</span>
+                <span class="tag">JavaScript</span>
+                <span class="tag">TypeScript</span>
+                <span class="tag">React</span>
+                <span class="tag">Next.js</span>
+                <span class="tag">Node.js</span>
+                <span class="tag">Express</span>
+                <span class="tag">PostgreSQL</span>
+                <span class="tag">MongoDB</span>
+                <span class="tag">Prisma</span>
+                <span class="tag">AI APIs</span>
+                <span class="tag">REST</span>
+                <span class="tag">Git</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="section">
+            <h2>Education</h2>
+            <div class="card">
+              <p><strong>Anjuman Institute of Technology & Management</strong></p>
+              <p>B.E. in Computer Science & Engineering</p>
+              <p class="small">Bhatkal, Karnataka</p>
+            </div>
+          </div>
+
+          <div class="section">
+            <h2>Certifications</h2>
+            <div class="card">
+              <p>Generative AI Model Workshop — NxtWave</p>
+              <p>Networking Basics — Cisco Networking Academy</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="btn-row">
+        <a class="btn primary" href="index.html">Back to Portfolio</a>
+        <button class="btn" type="button" onclick="window.print()">Save as PDF</button>
+        <a class="btn" href="mailto:guru60539@gmail.com">Contact Me</a>
+      </div>
+    </div>
+  </body>
+</html>
